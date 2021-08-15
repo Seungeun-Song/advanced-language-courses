@@ -7,7 +7,7 @@ from prettytable import PrettyTable
 URL = "http://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}"
 
 CITY = "seoul"
-API_KEY = "d64dc55592f29a938741d0a4e3aefe76"
+API_KEY = 
 
 with request.urlopen(URL.replace("{city name}", CITY).replace("{API key}", API_KEY)) as response:
     # print(response.read())

@@ -6,7 +6,7 @@ URL = "http://api.openweathermap.org/data/2.5/weather?q={city name}&lang={lang}&
 
 CITY = ["Seoul", "Daegu", "Busan"]
 LANG = "kr"
-API_KEY = "d64dc55592f29a938741d0a4e3aefe76"
+API_KEY = 
 
 dataTable = PrettyTable()
 
